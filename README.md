@@ -2,4 +2,4 @@
 A simple weather app using javascript
 
 Preview of the page
-![Alt text](/relative/path/to/img.jpg?raw=true "Optional Title")
+![Alt text](https://github.com/AniketPithadia/Weather-app/blob/main/images/page.png?raw=true "Optional Title")
