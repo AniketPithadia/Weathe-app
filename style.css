@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto",sans-serif;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background: #E0EAFC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #CFDEF3, #E0EAFC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    flex-wrap: wrap;
+
+}
+
+form{
+    margin-top: 1rem;
+}
+input{
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    padding: 0.5rem 1rem;
+    transition: transform 0.6s ease-in-out,box-shadow 0.6s ease-in-out;
+    cursor: pointer;
+}
+input:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 3px 8px rgba(0,0,0,0.2);
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+    flex-wrap: wrap;
+}
+main > div{
+    border: 1px solid #fff;
+    border-radius: 5px;
+    text-align: center;
+    padding: 0.5rem;
+    margin: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.w-heading{
+    font-weight:400;
+}
